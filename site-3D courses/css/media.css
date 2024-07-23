@@ -1,0 +1,294 @@
+@media(max-width: 1024px) {}
+
+@media(max-width: 992px) {
+    .home__title {
+        font-size: 50px;
+
+    }
+
+    .home__content-right {
+        padding-top: 114px;
+    }
+
+    .home__title {
+        margin-bottom: 15px;
+    }
+
+    .home__content-right {
+        align-items: flex-end;
+
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    .advantage__item-descr {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .advantage__container-bottom
+     {
+        padding-top: 20px;
+    }
+
+    .advatage__item-img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .advantage {
+        padding-bottom: 76px;
+    }
+
+    .teachers {
+        padding-bottom: 24px;
+    }
+
+    .teachers__item {
+        margin-bottom: 24px;
+    }
+
+    .courses__card-text {
+        margin-bottom: 30px;
+
+    }
+
+    .courses__card-btn {
+        max-width: 180px;
+        padding: 20px 55px;
+    }
+
+}
+
+@media(max-width: 780px) {
+    .home__content-right {
+        display: none;
+    }
+
+
+
+
+
+
+
+}
+
+@media(max-width: 576px) {
+
+    .header__container {
+        justify-content: space-between;
+
+    }
+
+    .header__logo-link {
+        margin: auto;
+        padding-bottom: 12px;
+    }
+
+    .nav__list {
+        margin-bottom: 30px;
+    }
+
+    .home {
+        min-height: 568px;
+    }
+
+    .home__content-left {
+        padding-top: 76px;
+        padding-left: 20px;
+    }
+
+
+
+    .home__descr {
+        /* max-width: 350px; */
+        margin-bottom: 62px;
+    }
+
+    .advantage__right {
+        padding-top: 0;
+    }
+
+    .advantage {
+        padding-bottom: 58px;
+    }
+
+
+    .courses__card-btn {
+        max-width: 195px;
+        padding: 20px 48px;
+    }
+
+    .advantage__right {
+        display: none;
+    }
+
+
+
+
+
+}
+
+/*****************************************/
+@media(max-width: 520px) {
+    .header__burger-btn {
+        display: block;
+    }
+
+
+    .header__nav {
+        z-index: 1;
+        position: absolute;
+        right: -200px;
+        top: 0;
+        width: 200px;
+        background-color: white;
+        box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+        padding: 30px 30px;
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav__list {
+        display: block;
+    }
+
+    .nav__list {
+        margin-right: 0;
+    }
+
+    .nav__link {
+        display: block;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--lightdark);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .header.burgeropen .header__nav {
+        transform: translateX(-100%)
+    }
+
+
+
+    .header__logo-link {
+        margin: 0;
+        margin-right: auto;
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+
+    /****************************************/
+
+    .header__logo-mobile {
+        display: block;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .home {
+        min-height: 353px;
+    }
+
+    .home__content-left {
+        padding-top: 51px;
+        padding-bottom: 47px;
+    }
+
+
+    .home__title {
+        margin-bottom: 5px;
+    }
+
+
+
+    .home__title {
+        font-size: 30px;
+    }
+
+    .home__descr {
+        font-size: 16px;
+    }
+
+    .home__descr {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        margin-bottom: 46px;
+    }
+
+    .home__btn {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 20px 53px;
+    }
+
+
+    .advanatge__tatle {
+        font-size: 20px;
+        line-height: 130%;
+        margin-bottom: 0;
+    }
+
+    .advantage {
+        padding-top: 50px;
+        padding-bottom: 17px;
+    }
+
+    .advantage__container-bottom {
+        padding-top: 28px;
+    }
+
+    .advantage__item-descr {
+        flex-direction: row;
+    }
+
+    .advatage__item-img {
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .teachers__title {
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    .teachers {
+        padding-top: 46px;
+        padding-bottom: 45px;
+    }
+
+    .teachers__avatar {
+        margin-bottom: 32px;
+    }
+
+    .teachers__descr {
+        line-height: 150%;
+        font-weight: 400;
+
+    }
+
+    .teachers__item {
+        margin-bottom: 18px;
+    }
+
+    .courses__title {
+        font-size: 20px;
+    }
+
+    .courses {
+        padding-top: 47px;
+    }
+
+    .courses__card-descrrwrap {
+        min-height: 473px;
+    }
+
+
+}
